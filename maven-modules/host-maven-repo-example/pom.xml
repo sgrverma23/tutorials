@@ -8,7 +8,7 @@
     <artifactId>host-maven-repo-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <url>https://github.com/sgrverma23/host-maven-repo-example.git</url>
+    <url>https://github.com/sgrverma23/tutorials.git</url>
 
     <properties>
         <github.global.server>github</github.global.server>
@@ -17,9 +17,9 @@
     </properties>
 
     <scm>
-        <url>https://github.com/sgrverma23/host-maven-repo-example.git</url>
-        <connection>scm:git:git@github.com:sgrverma23/host-maven-repo-example.git</connection>
-        <developerConnection>scm:git:git@github.com:sgrverma23/host-maven-repo-example.git</developerConnection>
+        <url>https://github.com/sgrverma23/tutorials.git</url>
+        <connection>https://github.com/sgrverma23/tutorials.git</connection>
+        <developerConnection>scm:git:git@github.com:sgrverma23/tutorials.git</developerConnection>
     </scm>
 
 
@@ -58,7 +58,7 @@
                         <include>**/*</include>
                     </includes>
                     <merge>true</merge>
-                    <repositoryName>host-maven-repo-example</repositoryName>
+                    <repositoryName>tutorials</repositoryName>
                     <repositoryOwner>sgrverma23</repositoryOwner>
                     <server>github</server>
                 </configuration>
@@ -98,7 +98,7 @@
     <repositories>
         <repository>
             <id>PROJECT-REPO-URL</id>
-            <url>https://github.com/sgrverma23/host-maven-repo-example/main</url>
+            <url>https://github.com/sgrverma23/tutorials/host-maven-repo-example/main</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
